@@ -1,3 +1,3 @@
-exports.stupidParseInt = function(s) {
-    return parseInt(s, 10)
+exports.stupidParseInt = function(o) {
+    return parseInt(o.str, o.rad)
 }
