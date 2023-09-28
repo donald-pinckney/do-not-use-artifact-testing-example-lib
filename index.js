@@ -1,3 +1,4 @@
-exports.stupidParseInt = function(o) {
-    return parseInt(o.str, o.rad)
+exports.stupidParseInt = function(str) {
+    let n = parseInt(str);
+    return { num: n, ok: !isNaN(n) }; 
 }
