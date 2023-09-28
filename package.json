@@ -1,0 +1,14 @@
+{
+  "name": "do-not-use-artifact-testing-example-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
